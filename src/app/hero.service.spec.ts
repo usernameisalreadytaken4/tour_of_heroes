@@ -1,6 +1,8 @@
 import { TestBed, inject } from '@angular/core/testing';
 
 import { HeroService } from './hero.service';
+import { Hero } from './hero';
+import { HEROES } from './mock-heroes';
 
 describe('HeroService', () => {
   beforeEach(() => {
